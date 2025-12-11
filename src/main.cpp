@@ -3,6 +3,6 @@ using namespace std;
 
 int main() 
 {
-    cout << "PARKING SYSYTEM" << endl;
+    cout << "Can you see this?" << endl;
     return 0;
 }
