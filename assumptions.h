@@ -6,7 +6,8 @@
 #ifndef ASSUMPTIONS_H
 #define ASSUMPTIONS_H
 
-const double CAR_RATE = 2.0;      // RM per hour
-const double MOTOR_RATE = 1.0;    // RM per hour
+const double CAR_RATE = 2.00;      // RM per hour
+const double MOTOR_RATE = 1.00;    // RM per hour
+const double MAX_CHARGE = 20.00;   // Maximum charge
 
 #endif
