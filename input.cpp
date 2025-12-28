@@ -13,3 +13,31 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+string inputVehicleType() {
+    string vehicleType;
+    cout << " Enter Vehicle Type: ";
+    cin >> vehicleType;
+    return vehicleType;
+}
+
+string inputPlateNumber() {
+    string plateNumber;
+    cout << " Enter Plate Number: ";
+    cin >> plateNumber;
+    return plateNumber;
+}
+
+int inputHours() {
+    int hours;
+    cout << " Enter Hours Parked: ";
+    cin >> hours;
+    return hours;
+}
+
+double inputFee() {
+    double fee;
+    cout << " Enter Parking Fee: ";
+    cin >> fee;
+    return fee;
+}
