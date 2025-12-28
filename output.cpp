@@ -12,3 +12,24 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+void displayHeader() 
+{
+    cout << "===== PARKING BILL SYSTEM =====" << endl;
+}
+
+void displayReceipt(string vehicleType, string plateNumber, int hours, double fee)
+{
+    cout << endl;
+    cout << "========== Parking Receipt ==========" << endl;
+    cout << "Vehicle Type   : " << vehicleType << endl;
+    cout << "Plate Number   : " << plateNumber << endl;
+    cout << "Hours Parked   : " << hours << " hours(s)" << endl;
+    cout << "Total Fee(RM)  : " << fee << endl;
+    cout << "=====================================" << endl;
+}
+
+void displayError(string message)
+{
+    cout << "Error: " << message << endl;
+}
