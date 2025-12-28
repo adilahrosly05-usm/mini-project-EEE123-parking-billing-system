@@ -8,7 +8,7 @@
 //function use
 // inputVehicleType
 // inputPlateNumber
-// inputHoursParked
+// inputHours
 //if need to add more function, please add here
 
 #include <iostream>

@@ -6,7 +6,6 @@
 
 //use this function
 // displayReceipt
-// saveToFile
 // displayError
 //if need to add more function, please add here
 
