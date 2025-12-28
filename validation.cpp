@@ -1,5 +1,6 @@
 // validation.cpp
 // Programmers: [Group Member Names]
+// Matric No: [Group Member Matric Numbers]
 // Purpose: check whether the user input is valid
 // What it does: check vehicle type is correct, check plate number is not empty, check parking hours is positive integer
 
