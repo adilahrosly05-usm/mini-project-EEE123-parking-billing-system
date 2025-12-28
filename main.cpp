@@ -10,7 +10,8 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
     string vehicleType, plateNumber;
     int hours;
     double fee;
@@ -18,7 +19,8 @@ int main() {
     cout << "===== PARKING BILL SYSTEM =====" << endl;
 
     vehicleType = inputVehicleType();
-    if (!validateVehicleType(vehicleType)) {
+    if (!validateVehicleType(vehicleType)) 
+    {
         cout << "Invalid vehicle type!" << endl;
         return 0;
     }
@@ -26,7 +28,8 @@ int main() {
     plateNumber = inputPlateNumber();
     hours = inputHours();
 
-    if (!validateHours(hours)) {
+    if (!validateHours(hours)) 
+    {
         cout << "Invalid hours!" << endl;
         return 0;
     }
