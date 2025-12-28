@@ -1,6 +1,6 @@
 // output.cpp
-// Programmers: [Group Member Names]
-// Matric No: [Group Member Matric Numbers]
+// Programmers: [Nurul Huda Binti Zakaria]
+// Matric No: [24302691]
 // Purpose: display results to user
 // What it does: display parking fee receipt, shows vehicle details, shows total fee
 
