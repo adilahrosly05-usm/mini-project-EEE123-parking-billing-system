@@ -11,7 +11,7 @@ bool validateVehicleType(string); // function to validate vehicle type
 bool validateHours(int); // function to validate parking hours
 bool validatePlateNumber(string); // function to validate empty plate number 
 
-double calculateFee(string, int); // function to calculate parking fee
+double calculateFee(int, double); // function to calculate parking fee
 double getRate(string); // function to get rate based on vehicle type
 double applyMaxCharge(double); // function to apply maximum charge limit
 

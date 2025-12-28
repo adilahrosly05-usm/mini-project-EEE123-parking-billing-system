@@ -1,6 +1,6 @@
 // main.cpp
-// Programmers: NUR ADILAH BINTI ROSLY
-// Matric No: 24302425
+// Programmers: [NUR ADILAH BINTI ROSLY]
+// Matric No: [24302425]
 // Purpose: starting point of the programming, control the program flow
 // What it dose: display system title, call input function, call validation function, call calculation function, display recipt, save data to file     
 
@@ -12,31 +12,37 @@ using namespace std;
 
 int main() 
 {
-    string vehicleType, plateNumber;
+    string type, plate;
     int hours;
-    double fee;
+    double rate, fee;
 
-    cout << "===== PARKING BILL SYSTEM =====" << endl;
-
-    vehicleType = inputVehicleType();
-    if (!validateVehicleType(vehicleType)) 
+    type = inputVehicleType();
+    if (!validateVehicleType(type)) 
     {
-        cout << "Invalid vehicle type!" << endl;
+        displayError("Invalid vehicle type");
         return 0;
     }
 
-    plateNumber = inputPlateNumber();
-    hours = inputHours();
+    plate = inputPlateNumber();
+    if (!validatePlateNumber(plate)) 
+    {
+        displayError("Invalid plate number");
+        return 0;
+    }
 
+    hours = inputHours();
     if (!validateHours(hours)) 
     {
-        cout << "Invalid hours!" << endl;
+        displayError("Invalid hours");
         return 0;
     }
 
-    fee = calculateFee(vehicleType, hours);
-    displayReceipt(vehicleType, plateNumber, hours, fee);
-    saveToFile(vehicleType, plateNumber, hours, fee);
+    rate = getRate(type);
+    fee = calculateFee(hours, rate);
+    fee = applyMaxCharge(fee);
+
+    displayReceipt(type, plate, hours, fee);
+    saveToFile(type, plate, hours, fee);
 
     return 0;
 }
