@@ -3,7 +3,7 @@
 ## Group Members:
 1. [ADILAH] - main.cpp
 2. [ADAM] - input.cpp
-3. [Name] - calculation.cpp
+3. [ADILAH] - calculation.cpp
 4. [Name] - file.cpp
 5. [HUDA] - output.cpp
 6. [Name] - validation.cpp

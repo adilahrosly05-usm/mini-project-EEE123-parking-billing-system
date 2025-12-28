@@ -1,6 +1,6 @@
 // calculation.cpp
-// Programmers: [Group Member Names]
-// Matric No: [Group Member Matric Numbers]
+// Programmers: [NUR ADILAH BINTI ROSLY]
+// Matric No: [24302425]
 // Purpose: calculate parking fees
 // What it does: calculate based on vehicle type and parking hours
 
@@ -13,3 +13,23 @@
 #include "assumptions.h"
 #include <string>
 using namespace std;
+
+double getRate(string type) 
+{
+    if (type == "car")
+        return CAR_RATE;
+    else
+        return MOTOR_RATE;
+}
+
+double calculateFee(int hours, double rate) 
+{
+    return hours * rate;
+}
+
+double applyMaxCharge(double fee) 
+{
+    if (fee > MAX_CHARGE)
+        return MAX_CHARGE;
+    return fee;
+}
