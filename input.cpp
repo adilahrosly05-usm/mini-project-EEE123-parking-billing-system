@@ -1,6 +1,6 @@
 // input.cpp
-// Programmers: [Group Member Names]
-// Matric No: [Group Member Matric Numbers]
+// Programmers: [Adam Shukri Bin Mohd Shukri]
+// Matric No: [24303452]
 // Purpose: handle all user input
 // What it does: gets vehicle type, get plate number, get parking hours
 
