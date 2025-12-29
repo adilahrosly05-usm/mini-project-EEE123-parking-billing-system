@@ -16,6 +16,8 @@ int main()
     int hours;
     double rate, fee;
 
+    cout << "===== PARKING BILL SYSTEM =====" << endl;
+
     type = inputVehicleType();
     if (!validateVehicleType(type)) 
     {
