@@ -17,5 +17,6 @@ double applyMaxCharge(double); // function to apply maximum charge limit
 
 void displayReceipt(string, string, int, double); // function to display parking receipt
 void displayError(string); // function to display error messages
+void displayHeader(); // function to display system header
 
 void saveToFile(string, string, int, double); // function to save parking data to file

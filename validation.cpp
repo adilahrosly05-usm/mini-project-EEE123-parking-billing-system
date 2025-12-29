@@ -18,7 +18,7 @@ bool validateVehicleType(string type)
     return (type == "car" || type == "motorcycle");
 }
 
-bool validatePlate(string plate) 
+bool validatePlateNumber(string plate) 
 {
     return plate.length() >= 3;
 }
