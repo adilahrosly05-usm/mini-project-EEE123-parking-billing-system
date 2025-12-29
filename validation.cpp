@@ -13,14 +13,17 @@
 #include <string>
 using namespace std;
 
-bool validateVehicleType(string type) {
+bool validateVehicleType(string type)
+ {
     return (type == "car" || type == "motorcycle");
 }
 
-bool validatePlate(string plate) {
+bool validatePlate(string plate) 
+{
     return plate.length() >= 3;
 }
 
-bool validateHours(int hours) {
+bool validateHours(int hours)
+ {
     return hours > 0;
 }
