@@ -35,10 +35,3 @@ int inputHours() {
     cin >> hours;
     return hours;
 }
-
-double inputFee() {
-    double fee;
-    cout << " Enter Parking Fee: ";
-    cin >> fee;
-    return fee;
-}
