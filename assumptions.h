@@ -1,5 +1,6 @@
 // File      : assumptions.h
-// Programmer: Your Name
+// Programmer: NUR ADILAH BINTI ROSLY
+// Matric No : 24302425
 // Purpose   : store constant values for parking rates
 // What it does: defines hourly rates for different vehicle types
 
