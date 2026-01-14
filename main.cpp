@@ -12,11 +12,11 @@ using namespace std;
 
 int main() 
 {
+    displayWelcome();
+    
     string type, plate;
     int hours;
     double rate, fee;
-
-    cout << "===== PARKING BILL SYSTEM =====" << endl;
 
     type = inputVehicleType();
     if (!validateVehicleType(type)) 

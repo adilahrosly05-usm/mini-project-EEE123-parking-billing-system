@@ -19,3 +19,4 @@ void displayReceipt(string, string, int, double); // function to display parking
 void displayError(string); // function to display error messages
 
 void saveToFile(string, string, int, double); // function to save parking data to file
+void displayWelcome();

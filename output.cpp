@@ -11,7 +11,21 @@
 
 #include <iostream>
 #include <string>
+#include "function.hpp"
 using namespace std;
+
+void displayWelcome()
+{
+   cout << "===============================================" << endl;
+    cout << "      WELCOME TO THE PARKING BILL SYSTEM      " << endl;
+    cout << "            Developed by: Group 20            " << endl;
+    cout << "===============================================" << endl;
+    cout << "      Initializing system... Please wait.     " << endl;
+    cout <<  "                                             " << endl; 
+    cout << "System ready. Please follow the prompts below." << endl;
+    cout << "===============================================" << endl;
+    cout <<  "                                              " << endl; 
+}
 
 void displayReceipt(string vehicleType, string plateNumber, int hours, double fee)
 {
