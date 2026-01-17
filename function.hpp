@@ -15,8 +15,8 @@ double calculateFee(int, double); // function to calculate parking fee
 double getRate(string); // function to get rate based on vehicle type
 double applyMaxCharge(double); // function to apply maximum charge limit
 
+void displayWelcome(); // function to display welcome message
 void displayReceipt(string, string, int, double); // function to display parking receipt
 void displayError(string); // function to display error messages
 
 void saveToFile(string, string, int, double); // function to save parking data to file
-void displayWelcome();

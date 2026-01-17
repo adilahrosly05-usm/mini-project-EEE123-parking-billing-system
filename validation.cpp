@@ -25,5 +25,5 @@ bool validatePlateNumber(string plate)
 
 bool validateHours(int hours)
  {
-    return hours > 0;
+    return hours >= 0;
 }

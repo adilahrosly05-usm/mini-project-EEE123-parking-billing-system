@@ -5,6 +5,7 @@
 // What it does: display parking fee receipt, shows vehicle details, shows total fee
 
 //use this function
+// displayWelcome
 // displayReceipt
 // displayError
 //if need to add more function, please add here
